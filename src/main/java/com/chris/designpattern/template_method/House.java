@@ -1,4 +1,4 @@
-package com.chris.designpattern.template_method_pattern;
+package com.chris.designpattern.template_method;
 
 /**
  * @Auther Chris Lee
@@ -31,14 +31,14 @@ public abstract class House {
 	/**
 	 * final implementation of constructing roof - final as all type of house Should build roof in same manner.
 	 */
-	private final void constructRoof() {
+	private void constructRoof() {
 		System.out.println("Roof has been constructed.");
 	}
 	
 	/**
 	 * final implementation of constructing base - final as all type of house Should build base/foundation in same manner.
 	 */
-	private final void constructBase() {
+	private void constructBase() {
 		System.out.println("Base has been constructed.");
 	}
 	

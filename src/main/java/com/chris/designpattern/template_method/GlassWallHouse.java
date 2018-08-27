@@ -1,4 +1,4 @@
-package com.chris.designpattern.template_method_pattern;
+package com.chris.designpattern.template_method;
 
 /**
  * @Auther Chris Lee
